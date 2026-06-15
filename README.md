@@ -17,15 +17,15 @@ cd psycho-platform,
 Создать виртуальное окружение:
 python -m venv venv
 Активировать окружение:
-   
 Windows: venv\Scripts\activate
 Mac/Linux: source venv/bin/activate,
 Установить зависимости:
- pip install -r requirements.txt,
-Выполнить миграции:
-   python manage.py migrate
-Создать суперпользователя:
-   python manage.py createsuperuser
- Запустить сервер разработки:
-   python manage.py runserver
+pip install -r requirements.txt,
+   Выполнить миграции:
+python manage.py migrate
+   Создать суперпользователя:
+python manage.py createsuperuser
+   Запустить сервер разработки:
+python manage.py runserver
+   
  Открыть в браузере: http://127.0.0.1:8000/
