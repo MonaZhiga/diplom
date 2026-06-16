@@ -14,6 +14,8 @@
 Установка и запуск
 Перейти в папку проекта:
 cd psycho-platform,
+powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Создать виртуальное окружение:
 python -m venv venv
 Активировать окружение:
